@@ -1,0 +1,14 @@
+{
+  "source_revision": "9608af811ded9c78b833d59cd34bad6b09433e4f",
+  "sources_note": "SHA-256 of the unpublished research records the scores were extracted from.",
+  "sources": {
+    "nearest-frontier, env3, all conditions": "c9df70e60fa671a01f1262149b29df34a1d06db7c90f8292e21823ce8d2d3ca0",
+    "nearest-frontier, env1-2 and env4-7, all conditions": "9ab52e2dcad860480fc3e94bc5301d6fce8cbee25dc0724ce0cb5d330aed2af3",
+    "random-frontier, all maps, 15 m": "b9edb189b073cb110f5582fca78024440c2aee101f03c5bda25a11a76ce7d236"
+  },
+  "scores_sha256": "c29937b147a06b5c1b493c965610e49c5b97a67392f953c7b25df600b946932a",
+  "upstream_repository": "https://github.com/BYU-FROST-Lab/indoor-exploration-competition",
+  "upstream_commit": "2a2c7519253b0d1f454f20b0865e3a6c17eb45b9",
+  "scope": "Recorded subset scores only; not a simulator reproduction.",
+  "subset_encoding": "16 scores indexed by mask; bit 0 = robot 1, bit 3 = robot 4"
+}
