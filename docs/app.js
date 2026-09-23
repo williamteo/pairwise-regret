@@ -149,7 +149,7 @@ function updateConditions() {
 }
 async function init() {
   try {
-    const response = await fetch("data.json?v=10");
+    const response = await fetch("data.json?v=11");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     cells = data.cells;

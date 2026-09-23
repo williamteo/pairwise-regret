@@ -95,7 +95,7 @@
 
   async function init() {
     try {
-      const response = await fetch("data.json?v=10");
+      const response = await fetch("data.json?v=11");
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const cell = (await response.json()).cells.find(c => c.family === "nearest-frontier" && c.map === "env1" && c.condition === "15");
       const byId = (id) => cell.candidates.find(c => c.id === id);

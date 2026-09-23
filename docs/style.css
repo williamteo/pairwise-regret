@@ -100,3 +100,7 @@ svg .strong{font-weight:600}
 #slope{max-width:720px}
 #subset-figure svg text{font-size:13px}
 @media(max-width:640px){.toggles button{min-height:44px;min-width:44px}.overview .cell{min-height:44px}.links .button{min-height:44px;line-height:1.9}}
+.site-bar{max-width:960px;margin:0 auto;padding:14px 16px 0;display:flex;gap:8px;font-size:.875rem;color:var(--muted)}
+.site-bar a{text-decoration:none}
+.site-bar a:hover{text-decoration:underline}
+.site-bar a:first-child{font-weight:600;color:var(--ink)}

@@ -209,11 +209,11 @@
 
   async function init() {
     try {
-      const response = await fetch("replay.json?v=10");
+      const response = await fetch("replay.json?v=11");
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       replay = await response.json();
-      walls = pixels(await loadImage("floorplan.png?v=10"));
-      for (const plan of replay.plans) decodeLayers(plan, pixels(await loadImage(`${plan.layers}?v=10`)));
+      walls = pixels(await loadImage("floorplan.png?v=11"));
+      for (const plan of replay.plans) decodeLayers(plan, pixels(await loadImage(`${plan.layers}?v=11`)));
       setup();
     } catch (error) {
       el("replay-step-label").textContent = `Could not load the replay (${error.message}).`;
