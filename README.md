@@ -1,7 +1,9 @@
 # Pairwise Approximation Can Select the Wrong Multi-Robot Plan
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.29929-b31b1b.svg)](https://arxiv.org/abs/2609.29929)
+
 Code and data for the IROS 2026 Intelligent Information Gathering workshop
-paper by William Teo. Project page: https://www.william-teo.com/pairwise-regret/
+[paper](https://arxiv.org/abs/2609.29929) by William Teo. Project page: https://www.william-teo.com/pairwise-regret/
 
 `analyze.py` recomputes the paper's scores and plan selections from the
 recorded subset values in `scores.json`. It needs Python 3.10 or later and
@@ -62,6 +64,20 @@ simulations on it.
 GitHub Pages serves `docs/` from the default branch. All browser paths are
 relative. After changing `scores.json` or `analyze.py`, rerun the analysis
 and commit the regenerated `docs/data.json`; CI fails if it is stale.
+
+## Cite
+
+```bibtex
+@misc{teo2026pairwise,
+  title         = {Pairwise Approximation Can Select the Wrong Multi-Robot Plan},
+  author        = {Teo, William},
+  year          = {2026},
+  eprint        = {2609.29929},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  note          = {IROS 2026 Workshop on Intelligent Information Gathering}
+}
+```
 
 ## License
 

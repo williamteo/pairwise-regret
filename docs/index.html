@@ -15,7 +15,7 @@
 <p class="authors"><a href="https://www.william-teo.com/">William Teo</a></p>
 <p class="affiliations">MARMoT Lab, National University of Singapore<br>NEAR Lab, AI.Robotics Strategic Technology Centre, ST Engineering</p>
 <p class="venue">IROS 2026 Workshop on Intelligent Information Gathering</p>
-<p class="links"><span class="button off" title="Link added when the paper is posted">Paper (soon)</span><span class="button off" title="Link added when the preprint is posted">arXiv (soon)</span><a class="button" href="https://github.com/williamteo/pairwise-regret">Code</a><span class="button off" title="Link added when the post is published">Blog post (soon)</span></p>
+<p class="links"><a class="button" href="https://arxiv.org/abs/2609.29929">arXiv</a><a class="button" href="https://github.com/williamteo/pairwise-regret">Code</a><span class="button off" title="Link added when the post is published">Blog post (soon)</span></p>
 </section>
 <figure id="replay" class="wide">
 <div class="replay-maps">
@@ -110,11 +110,14 @@
 <section id="reproduce"><h2>Reproduce</h2><p>The analysis uses only the Python standard library. From a clone of the <a href="https://github.com/williamteo/pairwise-regret">code repository</a>, run:</p><pre><code>python -m unittest discover -s .
 python analyze.py --output docs/data.json
 python -m http.server 8000 --directory docs --bind 127.0.0.1</code></pre><p>This recomputes the paper's scores and selections from the recorded subset values. It does not rerun the simulator. The results on this page are in <a href="data.json" download>data.json</a>.</p><details><summary>Data provenance</summary><pre id="provenance"></pre></details></section>
-<section id="cite"><h2>Cite</h2><pre><code>@inproceedings{teo2026pairwise,
-  author    = {William Teo},
-  title     = {Pairwise Approximation Can Select the Wrong Multi-Robot Plan},
-  booktitle = {IROS 2026 Workshop on Intelligent Information Gathering},
-  year      = {2026}
+<section id="cite"><h2>Cite</h2><pre><code>@misc{teo2026pairwise,
+  title         = {Pairwise Approximation Can Select the Wrong Multi-Robot Plan},
+  author        = {Teo, William},
+  year          = {2026},
+  eprint        = {2609.29929},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  note          = {IROS 2026 Workshop on Intelligent Information Gathering}
 }</code></pre></section>
 </main><footer>William Teo • © 2026 • <a href="https://www.william-teo.com/">From William's Desk</a></footer>
 <noscript><p>The results section needs JavaScript. The data are in data.json.</p></noscript>
